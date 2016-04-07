@@ -1,0 +1,8 @@
+<XamlCompilerSaveState>
+  <ReferenceAssemblyList>
+    <LocalAssembly PathName="d:\visual studio projects\codinggame\codinggame\codinggame.windows\obj\x64\debug\intermediatexaml\codinggame.windows.exe" HashGuid="d96eabdf-4f19-fc42-de2d-a539232add31" />
+    <ReferenceAssembly PathName="c:\program files (x86)\microsoft sdks\windows\v8.1\extensionsdks\microsoft.vclibs\12.0\references\commonconfiguration\neutral\platform.winmd" HashGuid="58b6b6d1-928e-9908-9804-eb460e5e101b" />
+    <ReferenceAssembly PathName="d:\visual studio projects\codinggame\packages\mytoolkit.2.3.30.0\lib\portable-net45+wp8+win8+wpa81\mytoolkit.dll" HashGuid="1ddc48ec-7dec-f13b-8f0f-9bf24d62f040" />
+    <ReferenceAssembly PathName="d:\visual studio projects\codinggame\packages\mytoolkit.extended.2.3.30.0\lib\portable-wpa81+win8\mytoolkit.extended.dll" HashGuid="1baaace2-d3e1-ae81-b166-42e7ae8b2b89" />
+  </ReferenceAssemblyList>
+</XamlCompilerSaveState>

@@ -1,0 +1,89 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main()
+{
+   int x = 1;
+   int y = 10;
+   int i;
+   int sum = 0;
+   int sum2 = 0;
+   for(i = x; i <= y; i++) {
+        if(!(i%2))
+            sum = sum + i;
+        else if(i%2)
+            sum2 = sum2 + i;
+   }
+
+    printf("%d", sum + sum2);
+}
+answer
+55
+new
+#include <stdio.h>
+#include <stdlib.h>
+
+int main()
+{
+    int x = 11;
+    int y = 100;
+    char c = '-';
+    switch (c)
+    {
+    case '+':
+        printf("%d",x+y);
+    case '-':
+        printf("%d",x-y);
+    }
+    return 0;
+}
+answer
+-89
+new
+#include <stdio.h>
+#include <stdlib.h>
+
+int main()
+{
+    int i;
+    i = 1,2,3;
+    printf("i:%d\n",i);
+}
+answer
+1
+new
+#include <stdio.h>
+#include <stdlib.h>
+
+int main()
+{
+    int x,i;
+    x = 4;
+    for (i=2; i<x; i++)
+    {
+        if (x%i==0)
+        {
+            printf("1");
+            return;
+        }
+    }
+    printf("0");
+}
+answer
+1
+new
+#include <stdio.h>
+#include <stdlib.h>
+
+int main()
+{
+   int x = 6;
+   int y = 1;
+   int i;
+   for(i = x; i > 0; i--)
+    y = y * i;
+
+   printf("%d",y);
+}
+answer
+720

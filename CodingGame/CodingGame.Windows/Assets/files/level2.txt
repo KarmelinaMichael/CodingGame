@@ -1,0 +1,57 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main()
+{
+   int x = 1;
+   int y = 10;
+   int i;
+   int sum = 0;
+   for(i = x; i <= y; i++) {
+        if(i%2 == 0)
+            sum = sum + i;
+   }
+
+    printf("%d", sum);
+}
+answer
+30
+new
+#include <stdio.h>
+#include <stdlib.h>
+
+int main()
+{
+   int x = 1;
+   int y = 10;
+   int i;
+   int sum = 0;
+   for(i = x; i <= y; i++) {
+        if(i%2)
+            sum = sum + i;
+   }
+
+    printf("%d", sum);
+}
+answer
+25
+new
+6. Which of the following is not a correct variable type?
+1. float
+2. real
+3. int
+4. double
+
+Write the correct choice for example if first choice is correct write 1
+answer
+2
+new
+7. Which of the following is the correct operator to compare two variables?
+1. :=
+2. =
+3. equal
+4. ==
+
+Write the correct choice for example if first choice is correct write 1
+answer
+4

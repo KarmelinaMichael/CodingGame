@@ -1,0 +1,48 @@
+1. What is the correct value to return to the operating system upon the successful completion of a program?
+1. -1 
+2. 1 
+3. 0 
+4. Programs do not return a value.
+
+Write the correct choice for example if first choice is correct write 1
+answer
+3
+new
+2. What is the only function all C programs must contain?
+1. start()
+2. system() 
+3. main() 
+4. program()
+Write the correct choice for example if first choice is correct write 1
+answer
+3
+new
+3. What punctuation is used to signal the beginning and end of code blocks?
+1. { } 
+2. -> and <- 
+3. BEGIN and END 
+4. ( and ) 
+
+Write the correct choice for example if first choice is correct write 1
+answer
+1
+new
+4. What punctuation ends most lines of C code?
+1. . 
+2. ; 
+3. : 
+4. ' 
+
+Write the correct choice for example if first choice is correct write 1
+answer
+2
+new
+5. Which of the following is a correct comment?
+1. */ Comments */
+2. ** Comment **
+3. /* Comment */
+4. { Comment }
+
+Write the correct choice for example if first choice is correct write 1
+answer
+3

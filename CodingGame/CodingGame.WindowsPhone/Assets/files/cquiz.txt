@@ -1,0 +1,128 @@
+A computer program is a sequence of ----------- written to perform a specified task on a computer
+A)Data
+B)Files
+C)Information
+D)Instructions
+answer
+D)
+new
+A compiler is a computer program that transforms --------  into --------- 
+Which symbol terminates a C statement?
+A) a programming language , computer language
+B) computer language , a programming language
+C) All the above
+D) None of the above
+answer
+A)
+new
+Your C program always fails to compile and has these errors. What type of errors are present?
+A)Syntax
+B)Run-time
+C)Logic
+D)Undetected
+answer
+A)
+new
+A number such as 45.5 needs to be stored in a variable of which data type?
+A)int
+B)char
+C)float
+D)String
+answer
+C)
+new
+To print integer X , the right syntax is:
+A)print("%d",X);
+B)printf(%d,X);
+C)printf("%d",X)
+D)printf("%d",X);
+answer
+D)
+new
+To take integer X as an input frome user, the right syntax is:
+A)scanf(%d,X);
+B)scan("%d",&X);
+C)scanf("%d",&X);
+D)scanf("%d"&X);
+answer
+C)
+new
+To check whether two integers X & Y are equal using if condition , the right syntax is:
+A)if("X==Y")
+B)if(X==Y)
+C)if(X=Y)
+D)if(X==Y);
+answer
+B)
+new
+To check whether integer X is even or odd using if condition , the right syntax is:
+A)if(X%2==0)
+B)if(X/2==0)
+C)if(X%2=0)
+D)if(X%2==0);
+answer
+A)
+new
+Which arithmetic operator in C returns the integer remainder of the result of dividing its first operand by its second?
+A)%
+B)/
+C)\
+D)*
+answer
+A)
+new
+To switch on character c , the right syntax is:
+A)case(c)
+B)case : c
+C)case : 'c'
+D)case : "c"
+answer
+C)
+new
+In general, the body of a for loop is represented by the following symbols?
+A) [, ]
+B) {, }
+C) /, \
+D) /*, */
+answer
+B)
+new
+Which symbol separates variable names?
+A) &
+B) . (period)
+C) ; (semicolon)
+D) , (comma)
+answer
+D)
+new
+What is the final value of x when the code int x; for(x=0; x<10; x++) {} is run?
+A) 10
+B) 9
+C) 0
+D) 1
+answer
+A)
+new
+Which of the following is the correct operator to compare two variables?
+A) :=
+B) =>
+C) equal
+D) <=
+answer
+D)
+new
+The right for loop syntax is:
+A)for(i=0; i<10; i++){  //code }
+B)for(i=0 i<10; i++){  //code }
+C)for(i=0 , i<10, i++){  //code }
+D)for(i=0 i<10; i){  //code }
+answer
+A)
+new
+To take integer X as an input frome user, the right syntax is:
+A)scanf(%d,&X);
+B)scan("%d",&X)
+C)scanf("%d",&X);
+D)scanf("%d"&X);
+answer
+B)

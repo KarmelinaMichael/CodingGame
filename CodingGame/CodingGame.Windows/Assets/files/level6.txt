@@ -1,0 +1,101 @@
+#include <stdio.h>
+#include <stdlib.h>
+int rev(int n, int x[])
+{
+    int i,j;
+    int y[n];
+
+    for(i=0; i<n; i++)
+    {
+        y[i]=x[(n-1)-i];
+    }
+    return y[0];
+}
+int main()
+{
+    int n = 4;
+    int x[] = {1,2,3,4};
+    printf("%d", rev(n,x));
+
+    return 0;
+}
+answer
+4
+new
+#include <stdio.h>
+#include <stdlib.h>
+
+int main()
+{
+    int i,j,sum=0;
+    int x[3][4] = {{1,2,3,4},{1,2,3,4},{1,2,3,4}};
+    for(i=0; i<3; i++)
+    {
+        for(j=0; j<4; j++)
+        {
+            sum=sum+x[i][j];
+        }
+        sum=0;
+    }
+    for(i=0; i<3; i++)
+    {
+        for(j=0; j<4; j++)
+        {
+            sum=sum+x[i][j];
+        }
+    }
+    printf("%d",sum);
+
+
+    return 0;
+}
+answer
+30
+new
+#include <stdio.h>
+#include <stdlib.h>
+
+int lens(char a[])
+{
+    int i,c;
+    for(i=0; a[i]!='\0'; i++)
+    {
+        c=i;
+    }
+    c++;
+    return c;
+}
+
+int main()
+{
+    char a[6] = "hello";
+    printf("%d",lens(a));
+}
+answer
+5
+new
+#include <stdio.h>
+#include <stdlib.h>
+
+int strcmp_arry(char src1[], char src2[])
+{
+    int i=0;
+    while((src1[i]!='\0') || (src2[i]!='\0'))
+    {
+        if(src1[i] > src2[i])
+            return 1;
+        if(src1[i] < src2[i])
+            return -1;
+        i++;
+    }
+    return 0;
+}
+
+int main()
+{
+    char a[6] = "hello";
+    char b[12] = "hello world";
+    printf("%d",strcmp_arry(a,b));
+}
+answer
+-1

@@ -1,0 +1,40 @@
+﻿<Page
+    x:Class="CodingGame.Assesment"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:CodingGame"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+     Background="#FF0D6155">
+
+    <Grid x:Name="LayoutRoot">
+
+        <Grid.ChildrenTransitions>
+            <TransitionCollection>
+                <EntranceThemeTransition/>
+            </TransitionCollection>
+        </Grid.ChildrenTransitions>
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <!-- Title Panel -->
+
+
+        <!--TODO: Content should be placed within the following grid-->
+        <Grid x:Name="ContentRoot" Margin="0,57,0,5" Grid.RowSpan="2">
+            <TextBlock x:Name="Question" TextWrapping="Wrap" TextAlignment="Left" RenderTransformOrigin="0.552,0.593" Margin="0,0,0,298" FontSize="25"/>
+            <TextBlock Text="اختر الاجابة" Margin="23,285,30,208" FontSize="24" TextAlignment="Right"/>
+
+            <TextBlock x:Name="Correct"  TextAlignment="Right" Margin="155,491,18,29" Height="58" FontSize="20"/>
+            <RadioButton Content="A" x:Name="AnswerA"  HorizontalAlignment="Left" Margin="23,303,0,0" VerticalAlignment="Top" FontSize="20"/>
+            <RadioButton Content="B" x:Name="AnswerB" HorizontalAlignment="Left" Margin="23,342,0,0" VerticalAlignment="Top" FontSize="20"/>
+            <RadioButton Content="C" x:Name="AnswerC"  HorizontalAlignment="Left" Margin="23,380,0,0" VerticalAlignment="Top" FontSize="20"/>
+            <RadioButton Content="D" x:Name="AnswerD"  HorizontalAlignment="Left" Margin="23,422,0,0" VerticalAlignment="Top" FontSize="20"/>
+            <Button Margin="23,482,0,19" Content="ادخل" Height="77" Click="ok_Click"/>
+        </Grid>
+    </Grid>
+</Page>

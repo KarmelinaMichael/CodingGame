@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+    <HasSharedItems>true</HasSharedItems>
+    <SharedGUID>ebcf3ae4-e79f-4f76-9f37-00c7373037f1</SharedGUID>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration">
+    <Import_RootNamespace>CodingGame</Import_RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <ApplicationDefinition Include="$(MSBuildThisFileDirectory)App.xaml">
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+    <Compile Include="$(MSBuildThisFileDirectory)App.xaml.cs">
+      <DependentUpon>App.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="$(MSBuildThisFileDirectory)Questions.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)YoutubeVideo.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)ZooT.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="$(MSBuildThisFileDirectory)Assets\applause2.mp3" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\code.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\coin.mp3" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\computer1.jpg" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\phone.jpg" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\quiz1.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\score.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\video.png" />
+  </ItemGroup>
+</Project>

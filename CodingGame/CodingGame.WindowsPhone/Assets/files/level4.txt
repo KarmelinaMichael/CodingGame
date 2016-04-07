@@ -1,0 +1,79 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+void main()
+{
+    int a = 3;
+    int b = 2;
+
+    printf ("%d ", pow(3,2);
+}
+answer
+9
+new
+#include <stdio.h>
+#include <stdlib.h>
+
+void main()
+{
+    int  a, b, c, abc = 0;
+    a = b = c = 40;
+    if (c)
+    {
+        int abc;
+        abc = a*b+c;
+    }
+    printf ("%d ", abc);
+}
+answer
+0
+new
+#include <stdio.h>
+#include <stdlib.h>
+
+int main()
+{
+    int x,counter=0,y;
+    x = 56787;
+    while(x!=0)
+    {
+        y=x%10;
+        if(y==7)
+        {
+            counter=counter+1;
+        }
+        x=x/10;
+    }
+    printf("%d",counter);
+    return 0;
+}
+answer
+2
+new
+#include <stdio.h>
+int main(){
+  char c = 'i';
+  if(c=='a'||c=='A'||c=='e'||c=='E'||c=='i'||c=='I'||c=='o'||c=='O'||c=='u'||c=='U')
+       printf("1");
+  else
+       printf("0");
+  return 0;
+}
+answer
+1
+new
+#include <stdio.h>
+int main()
+{
+  int base = 3;
+  int exp = 4;
+  long long int value=1;
+  while (exp!=0)
+  {
+      value*=base;  /* value = value*base; */
+      --exp;
+  }
+  printf("%d", value);
+}
+answer
+81

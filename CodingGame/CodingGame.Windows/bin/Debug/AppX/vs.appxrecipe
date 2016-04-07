@@ -1,0 +1,106 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>RANAAHMED</Machine>
+    <WindowsUser>Rana</WindowsUser>
+    <TargetPlatformIdentifier>Windows</TargetPlatformIdentifier>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <PackageIdentityName>ee02db58-ece4-4cab-8fba-c2ccf75b3a05</PackageIdentityName>
+    <IntermediateOutputPath>D:\visual studio projects\CodingGame\CodingGame\CodingGame.Windows\obj\Debug\</IntermediateOutputPath>
+    <RegisteredManifestChecksum>59B0B8ED399653A58CB72B69D1197A95D16FC6ADB12471E4040A704127C0EF46</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>ee02db58-ece4-4cab-8fba-c2ccf75b3a05_1.0.0.0_neutral__njmm8db9q9f1r</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>ee02db58-ece4-4cab-8fba-c2ccf75b3a05_njmm8db9q9f1r!App</RegisteredUserModeAppID>
+    <RegisteredPackageID>ee02db58-ece4-4cab-8fba-c2ccf75b3a05</RegisteredPackageID>
+    <RegisteredPackagePublisher>CN=Rana</RegisteredPackagePublisher>
+    <RegisteredVersion>1.0.0.0</RegisteredVersion>
+    <JitOptimizationSuppressed>True</JitOptimizationSuppressed>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="D:\visual studio projects\CodingGame\CodingGame\CodingGame.Windows\bin\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-05-07T09:59:34.530</Modified>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="D:\visual studio projects\CodingGame\CodingGame\CodingGame.Windows\bin\Debug\CodingGame.Windows.exe">
+      <PackagePath>CodingGame.Windows.exe</PackagePath>
+      <Modified>2015-05-07T10:50:02.331</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio projects\CodingGame\packages\MyToolkit.2.3.30.0\lib\portable-net45+wp8+win8+wpa81\MyToolkit.dll">
+      <PackagePath>MyToolkit.dll</PackagePath>
+      <Modified>2015-05-07T09:45:42.256</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio projects\CodingGame\packages\MyToolkit.Extended.2.3.30.0\lib\portable-wpa81+win8\MyToolkit.Extended.dll">
+      <PackagePath>MyToolkit.Extended.dll</PackagePath>
+      <Modified>2015-05-07T09:45:46.111</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio projects\CodingGame\CodingGame\CodingGame.Windows\Assets\Logo.scale-100.png">
+      <PackagePath>Assets\Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2014-03-14T17:55:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio projects\CodingGame\CodingGame\CodingGame.Windows\Assets\SmallLogo.scale-100.png">
+      <PackagePath>Assets\SmallLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2014-03-14T17:55:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio projects\CodingGame\CodingGame\CodingGame.Windows\Assets\SplashScreen.scale-100.png">
+      <PackagePath>Assets\SplashScreen.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2014-03-14T17:55:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio projects\CodingGame\CodingGame\CodingGame.Windows\Assets\StoreLogo.scale-100.png">
+      <PackagePath>Assets\StoreLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2014-03-14T17:55:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio projects\CodingGame\CodingGame\CodingGame.Windows\bin\Debug\App.xbf">
+      <PackagePath>App.xbf</PackagePath>
+      <Modified>2015-05-07T09:59:32.186</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio projects\CodingGame\CodingGame\CodingGame.Windows\bin\Debug\MainPage.xbf">
+      <PackagePath>MainPage.xbf</PackagePath>
+      <Modified>2015-05-07T10:50:02.055</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio projects\CodingGame\CodingGame\CodingGame.Windows\bin\Debug\Video.xbf">
+      <PackagePath>Video.xbf</PackagePath>
+      <Modified>2015-05-07T10:50:02.055</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio projects\CodingGame\CodingGame\CodingGame.Windows\bin\Debug\VideoList.xbf">
+      <PackagePath>VideoList.xbf</PackagePath>
+      <Modified>2015-05-07T10:50:02.055</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio projects\CodingGame\CodingGame\CodingGame.Windows\bin\Debug\CodingGame.Windows.xr.xml">
+      <PackagePath>CodingGame.Windows.xr.xml</PackagePath>
+      <Modified>2015-05-07T10:50:01.986</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio projects\CodingGame\packages\MyToolkit.Extended.2.3.30.0\lib\portable-wpa81+win8\MyToolkit.Extended\MyToolkit.Extended.xr.xml">
+      <PackagePath>MyToolkit.Extended\MyToolkit.Extended.xr.xml</PackagePath>
+      <Modified>2015-05-07T09:45:46.116</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio projects\CodingGame\packages\MyToolkit.Extended.2.3.30.0\lib\portable-wpa81+win8\MyToolkit.Extended\Controls\DatePicker.xbf">
+      <PackagePath>MyToolkit.Extended\Controls\DatePicker.xbf</PackagePath>
+      <Modified>2015-05-07T09:45:46.114</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio projects\CodingGame\packages\MyToolkit.Extended.2.3.30.0\lib\portable-wpa81+win8\MyToolkit.Extended\Controls\TimePicker.xbf">
+      <PackagePath>MyToolkit.Extended\Controls\TimePicker.xbf</PackagePath>
+      <Modified>2015-05-07T09:45:46.114</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio projects\CodingGame\packages\MyToolkit.Extended.2.3.30.0\lib\portable-wpa81+win8\MyToolkit.Extended\Themes\generic.xbf">
+      <PackagePath>MyToolkit.Extended\Themes\generic.xbf</PackagePath>
+      <Modified>2015-05-07T09:45:46.117</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio projects\CodingGame\packages\MyToolkit.Extended.2.3.30.0\lib\portable-wpa81+win8\MyToolkit.Extended\UI\Popups\ListPickerBox.xbf">
+      <PackagePath>MyToolkit.Extended\UI\Popups\ListPickerBox.xbf</PackagePath>
+      <Modified>2015-05-07T09:45:46.118</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio projects\CodingGame\CodingGame\CodingGame.Windows\bin\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+      <Modified>2015-05-07T09:59:33.467</Modified>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,102 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main()
+{
+   int x = 10;
+   int y = 10;
+   if(x < y)
+    printf("1");
+   else
+    printf("2");
+}
+answer
+2
+new
+1#include <stdio.h>
+2#include <stdlib.h>
+3
+4int main()
+5{
+6   int x = 1;
+7   int y = 10;
+8   int i;
+9   int sum = 0;
+10  int sum2 = 0;
+11  for(i = x; i <= y; i++) {
+12       if(!(i%2))
+13           sum = sum + i
+14       else if(i%2)
+15           sum2 = sum2 + i;
+16  }
+17
+18  printf("%d", sum + sum2);
+19}
+
+Write number of line where error exists
+answer
+13
+new
+1#include <stdio.h>
+2#include <stdlib.h>
+3
+4int main()
+5{
+6   int x,y;
+7   printf("Enter number : ");
+8   scanf("%d",x);
+9   printf("Enter number : ");
+10  scanf("%d,&y);
+11  if(x < y)
+12   printf("1");
+13  else
+14   printf("2");
+15}
+
+Write number of line where error exists
+answer
+8
+new
+1#include <stdio.h>
+2#include <stdlib.h>
+3
+4int main()
+5{
+6   int x = 1;
+7   int y = 10;
+8   int i;
+9   int sum = 0;
+10  int sum2 = 0;
+11  for(i = x; i <= y; i++) {
+12       if(!(i%2))
+13           sum = sum + i;
+14       else if(i%2)
+15           sum2 = sum2 + i;
+16  }
+17  int total = sum + sum2;
+18  printf("%d", &total);
+19}
+
+Write number of line where error exists
+answer
+18
+new
+1#include <stdio.h>
+2#include <stdlib.h>
+3
+4int main()
+5{
+6   int x,y;
+7   printf("Enter number : ");
+8   scanf("%d",&x);
+9   printf("Enter number : ");
+10  scanf("%d,&y);
+11  if(x < y)
+12   printf(1);
+13  else
+14   printf("2");
+15}
+
+Write number of line where error exists
+answer
+12

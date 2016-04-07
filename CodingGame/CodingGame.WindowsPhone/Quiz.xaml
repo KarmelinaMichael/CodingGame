@@ -1,0 +1,41 @@
+﻿<Page
+    x:Class="CodingGame.Quiz"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:CodingGame"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="#FF0D6155">
+
+    <Grid x:Name="LayoutRoot">
+
+        <Grid.ChildrenTransitions>
+            <TransitionCollection>
+                <EntranceThemeTransition/>
+            </TransitionCollection>
+        </Grid.ChildrenTransitions>
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <!-- Title Panel -->
+
+
+        <!--TODO: Content should be placed within the following grid-->
+        <Grid x:Name="ContentRoot" Margin="0,57,0,5" Grid.RowSpan="2">
+            <TextBlock x:Name="Question"  TextAlignment="Left" RenderTransformOrigin="0.552,0.593" Margin="0,0,0,241" FontSize="20" FlowDirection="LeftToRight" TextWrapping="Wrap" ScrollViewer.VerticalScrollBarVisibility="Auto"
+                ScrollViewer.VerticalScrollMode="Auto"/>
+            <TextBlock Text="ادخل الاجابة" Margin="21,365,32,128" FontSize="20" TextAlignment="Right"/>
+            <TextBox x:Name="Answer" Margin="21,404,132,0" Height="46" />
+            <Button x:Name="ok" Click="ok_Click" Content="ادخل" Margin="273,395,0,118" Height="65" Width="101" Background="#FF1C3834" BorderBrush="{x:Null}"/>
+            <TextBlock x:Name="Correct"  TextAlignment="Right" Margin="21,489,18,31" Height="58" FontSize="20"/>
+
+            <Button Content="شارك" Click="share_button"  Margin="273,284,0,214" Height="65" Width="101" FontSize="18.14" Background="#FF1C3834" BorderBrush="{x:Null}"/>
+
+
+        </Grid>
+    </Grid>
+</Page>

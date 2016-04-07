@@ -1,0 +1,41 @@
+﻿<Page
+    x:Class="CodingGame.Video"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:CodingGame"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="#FF401212">
+
+    <Grid x:Name="LayoutRoot">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+
+        <Grid.ChildrenTransitions>
+            <TransitionCollection>
+                <EntranceThemeTransition/>
+            </TransitionCollection>
+        </Grid.ChildrenTransitions>
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <TextBlock Text="فيديوهات تعليمية" Margin="0,0,0,590" Grid.RowSpan="2" FontSize="25" TextAlignment="Right"/>
+        <Button x:ConnectionId='1' Content="شارك"                        Height="65" Width="101" FontSize="18.14" Background="Wheat" BorderBrush="{x:Null}" Margin="17,-7,0,7"/>
+
+        <!-- Title Panel -->
+
+
+        <!--TODO: Content should be placed within the following grid-->
+
+        <Grid Grid.Row="1" x:Name="ContentRoot" Margin="0,55,0,-1">
+
+            <MediaElement AreTransportControlsEnabled="True" x:Name="player" Stretch="Fill" AutoPlay="True"/>
+            <ProgressRing x:Name="progressRing" Height="100" Width="100" IsActive="True"/>
+        </Grid>
+    </Grid>
+</Page>
+

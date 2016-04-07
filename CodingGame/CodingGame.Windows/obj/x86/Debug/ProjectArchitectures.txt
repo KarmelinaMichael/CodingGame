@@ -1,0 +1,1 @@
+C:\Users\lina\Documents\Visual Studio 2013\Coding Game\CodingGame\CodingGame\CodingGame.Windows\CodingGame.Windows.csproj;x86

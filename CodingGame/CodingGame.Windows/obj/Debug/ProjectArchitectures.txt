@@ -1,0 +1,1 @@
+D:\visual studio projects\CodingGame\CodingGame\CodingGame.Windows\CodingGame.Windows.csproj;neutral

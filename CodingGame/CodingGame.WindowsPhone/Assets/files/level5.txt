@@ -1,0 +1,66 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main()
+{
+    int i = 6;
+    if( ((++i < 7) && ( i++/6)) || (++i <= 9))
+        printf("%d\n",i);
+}
+answer
+8
+new
+#include <stdio.h>
+#include <stdlib.h>
+#define ABC    20
+#define XYZ    10
+#define XXX    ABC - XYZ
+void main()
+{
+    int     a;
+    a = XXX * 10;
+    printf("%d ", a);
+}
+answer
+-80
+new
+#include <stdio.h>
+#include <stdlib.h>
+int fac(int x)
+{
+    int i,y=1;
+    for(i=1; i<=x; i++)
+    {
+        y=y*i;
+    }
+    return y;
+}
+int main()
+{
+    printf("%d",fac(5));
+    return 0;
+}
+answer
+120
+new
+#include <stdio.h>
+int main(){
+    char c = 'G';
+    printf("%d",c);
+    return 0;
+}
+answer
+71
+new
+#include <stdio.h>
+int main()
+{
+    char c = '*';
+    if( (c>='a'&& c<='z') || (c>='A' && c<='Z'))
+       printf("1");
+    else
+       printf("0");
+    return 0;
+}
+answer
+0

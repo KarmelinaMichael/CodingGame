@@ -1,0 +1,69 @@
+﻿<Page
+    x:Name="pageRoot"
+    x:Class="CodingGame.Quiz"
+    DataContext="{Binding DefaultViewModel, RelativeSource={RelativeSource Self}}"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:CodingGame"
+    xmlns:common="using:CodingGame.Common"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Page.Resources>
+        <!-- TODO: Delete this line if the key AppName is declared in App.xaml -->
+        <x:String x:Key="AppName">مسابقات</x:String>
+    </Page.Resources>
+
+    <!--
+        This grid acts as a root panel for the page that defines two rows:
+        * Row 0 contains the back button and page title
+        * Row 1 contains the rest of the page layout
+    -->
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <Grid.ChildrenTransitions>
+            <TransitionCollection>
+                <EntranceThemeTransition/>
+            </TransitionCollection>
+        </Grid.ChildrenTransitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="140"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <!-- Back button and page title -->
+        <Grid Background="#FF68A098">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="120"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+            <Button x:Name="backButton" Margin="39,59,39,0" Command="{Binding NavigationHelper.GoBackCommand, ElementName=pageRoot}"
+                        Style="{StaticResource NavigationBackButtonNormalStyle}"
+                        VerticalAlignment="Top"
+                        AutomationProperties.Name="Back"
+                        AutomationProperties.AutomationId="BackButton"
+                        AutomationProperties.ItemType="Navigation Button"/>
+            <TextBlock x:Name="pageTitle" Text="{StaticResource AppName}" Style="{StaticResource HeaderTextBlockStyle}" Grid.Column="1" 
+                        IsHitTestVisible="false" TextWrapping="NoWrap" VerticalAlignment="Bottom" Margin="0,0,30,40" TextAlignment="Right"/>
+        </Grid>
+        <Grid Grid.Row="1" Background="#FF0D6155">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+            <TextBlock TextWrapping="Wrap" x:Name="Question" Grid.Column="0" FontSize="24" Margin="48,96,51,24" ScrollViewer.VerticalScrollBarVisibility="Auto"
+                ScrollViewer.VerticalScrollMode="Auto"/>
+            <TextBlock TextWrapping="Wrap" Text="ادخل الاجابة" Grid.Column="1" FontSize="50" TextAlignment="Right" Margin="321,42,37,496"/>
+            <TextBox TextWrapping="Wrap" x:Name="Answer" Margin="0,132,37,378" Grid.Column="1" FontSize="24" TextAlignment="Right" />
+            <Button Content="شارك" Click="share_button"  Margin="477,527,0,21" Height="80" Width="158" FontSize="36" Background="#FF1C3834" BorderBrush="{x:Null}"/>
+            
+            <Button Grid.Column="1" Width="417" Height="100" x:Name="ok" Click="ok_Click" Content="ادخل" Margin="121,338,0,190" FontSize="40" Background="#FF1C3834" BorderBrush="{x:Null}"/>
+            <TextBlock TextWrapping="Wrap"  x:Name="Correct" Grid.Column="1" Margin="0,494,37,24" FontSize="36" SelectionChanged="Correct_SelectionChanged" TextAlignment="Right"/>
+            <TextBlock Text="الرصيد" FontSize="40" TextAlignment="Right" Margin="492,33,51,532"/>
+            <TextBlock x:Name="txt"   FontSize="40" TextAlignment="Right" Margin="312,33,219,532"/>
+            <MediaElement x:Name="media"  Source="Assets/coin.mp3" AutoPlay="False" AreTransportControlsEnabled="True" Margin="239,65,443,562" />
+            <MediaElement x:Name="media1"  Source="Assets/applause2.mp3" AutoPlay="False" AreTransportControlsEnabled="True" Margin="209,65,473,562" />
+
+        </Grid>
+    </Grid>
+</Page>
